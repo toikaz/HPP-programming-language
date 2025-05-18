@@ -23,7 +23,7 @@ HPP (Hardware Performance Programming) — это интерпретируемы
 - **str \ int <имя> = <значение>**: объявляет переменную и присваивает значение.
   - Пример:
     ```HPP
-    str a = Hello!
+    str a = "Hello!"
     int b = 5
     ```
 
@@ -55,8 +55,15 @@ HPP (Hardware Performance Programming) — это интерпретируемы
 - **System.out.print <сообщение>**: выводит сообщение в консоль.Так же выводит значение переменных
   - Пример:
     ```HPP
-    str b = Hello!
+    str b = "Hello!"
     System.out.print %a%
+    ```
+
+- **System.color <код цвета>**: меняет цвет консоли
+  - Пример:
+    ```HPP
+    str a = "F6"
+    System.color %a%
     ```
 
 ### Работа с реестром Windows (только для Windows)
