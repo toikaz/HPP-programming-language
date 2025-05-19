@@ -286,6 +286,7 @@ Keyboard
     ```HPP
     System.create.window Calculator 500 200
     ```
+    - **Примечание:** После разрешения можно указать fullscreen\zoomed.
     
 - **System.add_text.window <имя_окна> <координата> <координата> <текст>**: создает текст в указаном окне
   - Пример:
