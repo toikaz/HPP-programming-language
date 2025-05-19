@@ -52,14 +52,14 @@ HPP (Hardware Performance Programming) — это интерпретируемы
     str name = System.ReadLine()
     ```
 
-- **System.out.print <сообщение>**: выводит сообщение в консоль.Так же выводит значение переменных
+- **System.out.print <сообщение>**: выводит сообщение в консоль.Так же выводит значение переменных.
   - Пример:
     ```HPP
     str b = "Hello!"
     System.out.print %a%
     ```
 
-- **System.color <код цвета>**: меняет цвет консоли
+- **System.color <код цвета>**: меняет цвет консоли.
   - Пример:
     ```HPP
     str a = "F6"
