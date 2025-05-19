@@ -318,10 +318,16 @@ Keyboard
     System.clear.window Calculator
     ```
 
-- **System.System.clear_buttons.window <имя_окна>**: очищает все кнопки в окне кроме текста и ввода информации
+- **System.clear_buttons.window <имя_окна>**: очищает все кнопки в окне кроме текста и ввода информации
   - Пример:
     ```HPP
     System.clear_buttons.window Calculator
+    ```
+    
+- **System.clear_images.window <имя_окна>**: очищает все изображения в окне
+  - Пример:
+    ```HPP
+    System.clear_images.window Calculator
     ```
 
 - **System.clear_all_text.window <имя_окна>**: очищает весь текст в окне кроме кнопок и ввода информации
