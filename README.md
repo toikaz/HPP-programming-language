@@ -248,7 +248,6 @@ public static void Main(String[] args) {
 - Исходя из выполнения команд, ожидаемый вывод на консоль будет следующим:
 
 ```
-Copy
 All Products:
 1,Keyboard,75.5
 2,Mouse,25.0
