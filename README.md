@@ -885,7 +885,30 @@ Keyboard
     ```HPP
     System.file.move C:\files\file.txt C:\file.txt
     ```
-    
+
+- **System.edit.file <путь к файлу> : <новое содержане файла>**: меняет содержание файла.
+  - Пример:
+    ```HPP
+    System.edit.file C:\files\file.txt C:\file.txt
+    ```
+
+- **System.edit.file <путь к файлу> : <новое содержане файла>**: меняет содержание файла.
+  - Пример:
+    ```HPP
+    System.edit.file C:\files\file.txt : %content%
+    ```
+- **System.add_edit.file <путь к файлу> <дополнительный текст к файлу>**: добовляет текст к содержанию файла но не удаляет содержание.
+  - Пример:
+    ```HPP
+    System.add_edit.file C:\files\file.txt %content%
+    ```
+
+- **System.add_new_line_edit.file <путь к файлу> <дополнительный текст к файлу>**: добовляет текст к содержанию файла С НОВОЙ СТРОКИ но не удаляет содержание.
+  - Пример:
+    ```HPP
+    System.add_new_line_edit.file C:\files\file.txt %content%
+    ```
+  
 ### Переменные для математических операций
  
 - **int <имя_переменной>**: создает переменную в формате INT для вычислений так же служит переменной для вывода ответа вычислений.
