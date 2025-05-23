@@ -96,6 +96,12 @@ timeout 3 >nul
 copy "bin\hpp_ide.exe" "C:\Users\%username%\Desktop\"
 copy bin\vvm.exe "C:\Windows\System32\"
 timeout 5 >nul
+echo Registering file associations...
+ftype HPPFile="C:\windows\system32\hpp.exe" "%%1"
+assoc .hpp=HPPFile
+
+ftype VVMFile="C:\windows\system32\vvm.exe" "%%1"
+assoc .vvm=VVMFile
 timeout 3 >nul
 copy bin\Uninstall.bat "C:\Windows\System32\"
 timeout 2 >nul
