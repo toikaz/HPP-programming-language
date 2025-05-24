@@ -17,13 +17,12 @@ public static void Main(String[] args) {
     if %remains% == %o% : int remains = %remains% * %o%
     if %remains% == %g% : int remain = %remains% + %b%
     if %remains% != %g% : array add output %remains%
-    int cout = 999999999
+    int cout = 999999
     int a = %a% / %b%
     if %a% == %zero% : System.out.print Result:
-    if %a% == %zero% : System.out.print %cout%
     if %a% == %zero% : array indexout output %cout%
     if %a% == %zero% : int cout = %cout% + %o%
     if %a% == %zero% : if %cout% != 0 : goto 18
-    if %cout% == %zero% : exit()
+    if %a% == %zero% : exit()
     goto 4
 }
