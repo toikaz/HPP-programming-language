@@ -69,8 +69,20 @@ HPP (Hardware Performance Programming) — это интерпретируемы
   - Пример:
     ```HPP
     str b = "Hello!"
-    System.out.print %a%
+    System.out.print %b%
     ```
+
+- **System.out.println <сообщение>**: выводит сообщение в консоль на одной строке.Так же выводит значение переменных.
+  - Пример:
+    ```HPP
+    str b = "Hello"
+    str space = " "
+    str a = "name"
+    System.out.println %b%
+    System.out.println %space%
+    System.out.println %a%
+    ```
+    - Вывод: Hello name
 
 - **System.color <код цвета>**: меняет цвет консоли.
   - Пример:
