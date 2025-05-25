@@ -16,5 +16,4 @@ public static void Main(String[] args) {
     if %n% == 0 : exit()
     if %n% != 0 : goto 6
     
-    
 }
