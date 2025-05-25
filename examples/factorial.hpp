@@ -4,8 +4,8 @@ public static void Main(String[] args) {
     int f = 1
     System.out.print Enter a number to find the factorial:
     int b = System.ReadInt()
-    if %a% != %b% : goto 11
-    if %a% < %b% : goto 11
+    if %a% != %b% : goto 9
+    if %a% < %b% : goto 9
     if %a% == %b% : System.out.print Result: %f%
     if %a% == %b% : exit()
 
