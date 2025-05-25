@@ -13,4 +13,5 @@ public static void Main(String[] args) {
     int f = %f% * %a%
     System.out.print %f%
     goto 5
+
 }
